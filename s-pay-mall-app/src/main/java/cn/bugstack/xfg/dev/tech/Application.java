@@ -21,7 +21,7 @@ public class Application {
 
     /**
      * http://localhost:8080/api/test
-     * http://ek52vu.natappfree.cc/api/test
+     * http://e5xy25.natappfree.cc/api/test
      */
     @RequestMapping(value = "/test", method = RequestMethod.GET)
     public ResponseBodyEmitter test(HttpServletResponse response) {
