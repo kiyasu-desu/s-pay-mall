@@ -7,7 +7,30 @@ server:
       min-spare: 10
     accept-count: 10
 
+# 微信公众号对接
+weixin:
+  config:
+    originalid: gh_ae682407f6bd
+    token: b8b6
 
+spring:
+  datasource:
+    username: root
+    password: yhj515253545
+    url: jdbc:mysql://127.0.0.1:3306/s-pay-mall?useUnicode=true&characterEncoding=utf8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai&useSSL=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    initialSize: 5
+    minIdle: 5
+    maxActive: 20
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    validationQuery: SELECT 1
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    maxPoolPreparedStatementPerConnectionSize: 20
+    filters: stat
 
 # 日志
 logging:
