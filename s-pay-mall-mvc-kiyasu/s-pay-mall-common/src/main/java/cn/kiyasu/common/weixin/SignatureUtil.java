@@ -1,4 +1,4 @@
-package cn.kiyasu.common;
+package cn.kiyasu.common.weixin;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
