@@ -1,6 +1,6 @@
 package cn.kiyasu.service.impl;
 
-import cn.kiyasu.domain.po.WeixinTemplateMessageVO;
+import cn.kiyasu.domain.vo.WeixinTemplateMessageVO;
 import cn.kiyasu.domain.req.WeixinQrCodeReq;
 import cn.kiyasu.domain.res.WeixinQrCodeRes;
 import cn.kiyasu.domain.res.WeixinTokenRes;
