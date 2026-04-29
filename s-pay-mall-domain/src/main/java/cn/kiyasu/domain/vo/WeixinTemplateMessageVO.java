@@ -1,4 +1,4 @@
-package cn.kiyasu.domain.po;
+package cn.kiyasu.domain.vo;
 
 import lombok.Getter;
 import lombok.Setter;
