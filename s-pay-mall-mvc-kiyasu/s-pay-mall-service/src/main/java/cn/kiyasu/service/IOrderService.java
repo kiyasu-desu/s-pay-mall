@@ -1,7 +1,10 @@
 package cn.kiyasu.service;
 
+import cn.kiyasu.domain.po.PayOrder;
 import cn.kiyasu.domain.req.ShopCartReq;
 import cn.kiyasu.domain.res.PayOrderRes;
+
+import java.util.List;
 
 /**
  * @className: IOrderService
@@ -12,4 +15,12 @@ import cn.kiyasu.domain.res.PayOrderRes;
 public interface IOrderService {
 
     PayOrderRes createOrder(ShopCartReq shopCartReq) throws Exception;
+
+    void changeOrderPaySuccess(String  orderId);
+
+    List<String> queryNoPayNotifyOrder();
+
+    List<String> queryTimeoutCloseOrderList();
+
+    boolean changeOrderClose(String orderId);
 }
