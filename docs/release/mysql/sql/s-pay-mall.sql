@@ -6,7 +6,7 @@
 # https://github.com/Sequel-Ace/Sequel-Ace
 #
 # 主机: 127.0.0.1 (MySQL 8.0.32)
-# 数据库: xfg-dev-tech-alipay-sandbox
+# 数据库: s-pay-mall
 # 生成时间: 2023-12-13 12:02:08 +0000
 # ************************************************************
 
